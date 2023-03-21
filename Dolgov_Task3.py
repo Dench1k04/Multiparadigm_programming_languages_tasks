@@ -1,5 +1,6 @@
 # Introduction to programming, Lab № 3
 # Dolgov Denis IKM-221a
+
 import math
 
 print("Introduction to programming, Lab № 3")
