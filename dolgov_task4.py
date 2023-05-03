@@ -1,21 +1,21 @@
-# Introduction to programming, Lab № 4
+# Multiparadigm programming languages, Lab № 4
 # Dolgov Denis IKM-221a
 
-print('Introduction to programming, Lab № 4')
+print('Multiparadigm programming languages, Lab № 4')
 print(' Dolgov Denis IKM-221a')
 
 
-# Запитуємо користувача ввести число N
+# We ask the user to enter the number N
 n = int(input('Enter your N: '))
 
-# Перевіряємо кожне число від 2 до N на простоту
+# We check each number from 2 to N for simplicity
 for num in range(2, n):
-    # Перевіряємо, чи є число простим
+    # We check whether the number is prime
     is_prime = True
     for i in range(2, num):
-        if num % i == 0:
+        if num  %i == 0:
             is_prime = False
             break
-    # Якщо число просте, виводимо його на екран
+    # If the number is simple, display it on the screen
     if is_prime:
         print(num)

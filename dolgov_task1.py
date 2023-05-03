@@ -1,5 +1,6 @@
-print("Introduction to programming, Lab № 1")
-print("Dolgov Denis IKM-221a")
+print('Multiparadigm programming languages, Lab № 1')
+print('Dolgov Denis IKM-221a')
+
 TEACHER_NAME = 'Vladislav'
 
 print(f'{TEACHER_NAME} ,' * 45 + TEACHER_NAME)
